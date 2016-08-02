@@ -1,0 +1,157 @@
+!Working directory where DSSAT4 (or 4.5) is installed and weather or soil files can be found 
+Directory:  C:\IRI\PH\CAMDT_2016\GUI_test
+!  
+!==(I) Simulation set up 
+!(1)Simulation mode (hindcast(0) or forecst(1)?) 
+sim_mode: 0
+! 
+!(2)Simulation horizon 
+StartYear: 2009
+StartMonth: 12
+EndYear: 2010
+EndMonth: 7
+! 
+!(3)Prediction horizon 
+StartYear: 2009
+StartMonth: 1
+EndYear: 2010
+EndMonth: 5
+! 
+!(3)Planting date 
+Planting_date: 345
+!--------------------------- 
+!==(II) Seasonal  Forecast 
+!(1)Downscaling method: FResampler(0), PredWTD(1) 
+Temp_Downscaling: 0
+!(1-1)if from FResampler(0) 
+Factor(0-1_or>): 0.5
+!(1-2)if from PredWTD(1)- Number of Realizations - Weather genertions 
+nRealz:  100  
+!Flag for target forecast (Rainfall amount, frequency, intensity) 
+!e.g. combination of frequency and intensity(1/0=select/no-select)=>011 
+Flag: 100  
+! 
+!(2)How to get seasonal forecast: from CPT(0), user-specified(1) 
+Seasonal_forecast: 1
+!(2-1)if from CPT(0) 
+CPT_file: C:\IRI\PH\Philippines Forecasts\OND_2009_Fcst_Probs.txt 
+Latitude:   13.5 
+Longitude:   123.0 
+!(2-2)if user-defined(1) 
+Below_Normal: 50 
+Near_Normal: 35.0 
+Above_Normal: 15 
+!--------------------------- 
+!==(III) DSSAT set up 
+Crop_type: Rice 
+!Planting method: dry seed (0) or transplanting (1) 
+Plt_method: 1 
+!Planting detail 
+!Planting distribution: Hills (H), Rows (R), Brocast(B) 
+PLDS: R 
+!Planting population at seedling, plant/m2 
+PPOP: 75 
+!Planting population at emergence, plant/m2 
+PPOE: 25 
+!Planting Row spacing, cm 
+PLRS: 20 
+!Row Direction , degrees from North 
+PLRD: 0 
+!Planting depth , cm 
+PLDP: 2 
+!  
+!Choose weather station 
+Station_name(4char): PILI 
+!  
+!(2) soil  
+!Major soil types: SCL1(WI_ANPH007), LoamySand(WI_ANPH008), Clay(WI_VRPH021),Clay2(WI_VRPH043), SCL2(WI_CMPH009) 
+Soil_type: WI_ANPH007 
+!Rooting depth: shallow(2), medium(1) and deep (0)  
+Rooting_depth: 1 
+!  
+!(3)Cultivar: Calibrated (0) ((short duration, medium, long, drought-tolerant)or user-defined(1) 
+Cultivar_type: 0 
+VAR_num: IB0012
+VAR_name: IR 58
+!(3-1) if user-defined(4), specify cultivar parameters 
+VAR_num:    
+VAR_name:   
+ECO_num:   
+P1:   
+P2R:  
+P5:  
+P2O:  
+G1: 
+G2: 
+G3:  
+G4:  
+!  
+!(4)Fertilizer: Yes(0), or No(1) -No automatic option 
+Fertilization: 0 
+!(4-1) if Yes, 'days after sawing', 'amount','material','applications' 
+Number_applications: 2
+Fertilizer_1(days): 10
+Fertilizer_1(amount): 60
+Fertilizer_1(material): FE005(Urea)
+Fertilizer_1(application): AP012(Broadcast on flooded/saturated soil, 15% in soil)
+Fertilizer_2(days): 30
+Fertilizer_2(amount): 30
+Fertilizer_2(material): FE005(Urea)
+Fertilizer_2(application): AP012(Broadcast on flooded/saturated soil, 15% in soil)
+Fertilizer_3(days): Not added
+Fertilizer_3(amount): Not added
+Fertilizer_3(material): Not added
+Fertilizer_3(application): Not added
+!  
+!(5) Irrigation: Automatic when required(0),fixed amount automatic(1), on reported dates (2), no irrigation(3) 
+Irrigation_method: 0 
+!(5-1)if Automatic(0) 
+Management_depth(cm):  30
+Threshold: 50
+EndPoint: 100
+Efficiency_Fraction: 1
+End_of_Application: IB001
+Method: IR001(Furrow)
+Amount: 
+!(5-2)if Manual  
+Number_irrigation: 
+!(5-2-1) if transplanted 
+Puddling_date: 
+Puddling: 
+!whether transplanted or dry seeds 
+Percolation_rate: 
+First_irrigation_date: 
+Bund_height_1: 
+Constant_flood_depth_1: 
+Second_irrigation_date: 
+Bund_height_2: 
+Constant_flood_depth_2: 
+Third_irrigation_date: 
+Bund_height_3: 
+Constant_flood_depth_3: 
+Management_depth(cm):   
+Threshold:   
+EndPoint:   
+Efficiency_Fraction:   
+End_of_Application:  
+Method:   
+Amount: 
+!(5-2)if Manual  
+Number_irrigation:  
+!(5-2-1) if transplanted  
+Puddling_date:  
+Puddling:   
+!whether transplanted or dry seeds 
+Percolation_rate:  
+First_irrigation_date: 
+Bund_height_1:   
+Constant_flood_depth_1:   
+Second_irrigation_date:  
+Bund_height_2: 
+Constant_flood_depth_2:  
+Third_irrigation_date:  
+Bund_height_3: 
+Constant_flood_depth_3: 
+!---------------------------  
+!==(IV) Output analysis 
+WSI_threshold: 0.5

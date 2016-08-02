@@ -1,0 +1,17 @@
+Site_characteristics:
+Station: PILI
+!
+Season_characteritics:
+Currentyear: 2009
+Planting_month: 12
+Appx_Harvest_month:  7
+!
+Seasonal_climate_forecasts:
+Lead: 0.
+Frst_start_year:    2009
+Startmonth:  1
+Endmonth:  5
+Below_Normal:           50
+Near_Normal:            35
+Above_Normal:           15
+Factor(0-1_or>):  0.50
