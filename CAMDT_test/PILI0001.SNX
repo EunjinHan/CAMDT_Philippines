@@ -1,0 +1,231 @@
+*EXP.DETAILS: IRUP0001RI BAWP EXPERIMENTS 
+   
+*GENERAL 
+@PEOPLE
+-99   
+@ADDRESS
+-99    
+@SITE 
+Bicol 
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM......... 
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99          
+ 
+*TREATMENTS                        -------------FACTOR LEVELS------------  
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM 
+  11 0 0 Bicol_run1                 1  1  0  1  1  1  1  0  0  0  0  0  1
+  21 0 0 Bicol_run1                 1  2  0  1  1  1  1  0  0  0  0  0  1
+  31 0 0 Bicol_run1                 1  3  0  1  1  1  1  0  0  0  0  0  1
+  41 0 0 Bicol_run1                 1  4  0  1  1  1  1  0  0  0  0  0  1
+  51 0 0 Bicol_run1                 1  5  0  1  1  1  1  0  0  0  0  0  1
+  61 0 0 Bicol_run1                 1  6  0  1  1  1  1  0  0  0  0  0  1
+  71 0 0 Bicol_run1                 1  7  0  1  1  1  1  0  0  0  0  0  1
+  81 0 0 Bicol_run1                 1  8  0  1  1  1  1  0  0  0  0  0  1
+  91 0 0 Bicol_run1                 1  9  0  1  1  1  1  0  0  0  0  0  1
+ 101 0 0 Bicol_run1                 1 10  0  1  1  1  1  0  0  0  0  0  1
+ 111 0 0 Bicol_run1                 1 11  0  1  1  1  1  0  0  0  0  0  1
+ 121 0 0 Bicol_run1                 1 12  0  1  1  1  1  0  0  0  0  0  1
+ 131 0 0 Bicol_run1                 1 13  0  1  1  1  1  0  0  0  0  0  1
+ 141 0 0 Bicol_run1                 1 14  0  1  1  1  1  0  0  0  0  0  1
+ 151 0 0 Bicol_run1                 1 15  0  1  1  1  1  0  0  0  0  0  1
+ 161 0 0 Bicol_run1                 1 16  0  1  1  1  1  0  0  0  0  0  1
+ 171 0 0 Bicol_run1                 1 17  0  1  1  1  1  0  0  0  0  0  1
+ 181 0 0 Bicol_run1                 1 18  0  1  1  1  1  0  0  0  0  0  1
+ 191 0 0 Bicol_run1                 1 19  0  1  1  1  1  0  0  0  0  0  1
+ 201 0 0 Bicol_run1                 1 20  0  1  1  1  1  0  0  0  0  0  1
+ 211 0 0 Bicol_run1                 1 21  0  1  1  1  1  0  0  0  0  0  1
+ 221 0 0 Bicol_run1                 1 22  0  1  1  1  1  0  0  0  0  0  1
+ 231 0 0 Bicol_run1                 1 23  0  1  1  1  1  0  0  0  0  0  1
+ 241 0 0 Bicol_run1                 1 24  0  1  1  1  1  0  0  0  0  0  1
+ 251 0 0 Bicol_run1                 1 25  0  1  1  1  1  0  0  0  0  0  1
+ 261 0 0 Bicol_run1                 1 26  0  1  1  1  1  0  0  0  0  0  1
+ 271 0 0 Bicol_run1                 1 27  0  1  1  1  1  0  0  0  0  0  1
+ 281 0 0 Bicol_run1                 1 28  0  1  1  1  1  0  0  0  0  0  1
+ 291 0 0 Bicol_run1                 1 29  0  1  1  1  1  0  0  0  0  0  1
+ 301 0 0 Bicol_run1                 1 30  0  1  1  1  1  0  0  0  0  0  1
+ 311 0 0 Bicol_run1                 1 31  0  1  1  1  1  0  0  0  0  0  1
+ 321 0 0 Bicol_run1                 1 32  0  1  1  1  1  0  0  0  0  0  1
+ 331 0 0 Bicol_run1                 1 33  0  1  1  1  1  0  0  0  0  0  1
+ 341 0 0 Bicol_run1                 1 34  0  1  1  1  1  0  0  0  0  0  1
+ 351 0 0 Bicol_run1                 1 35  0  1  1  1  1  0  0  0  0  0  1
+ 361 0 0 Bicol_run1                 1 36  0  1  1  1  1  0  0  0  0  0  1
+ 371 0 0 Bicol_run1                 1 37  0  1  1  1  1  0  0  0  0  0  1
+ 381 0 0 Bicol_run1                 1 38  0  1  1  1  1  0  0  0  0  0  1
+ 391 0 0 Bicol_run1                 1 39  0  1  1  1  1  0  0  0  0  0  1
+ 401 0 0 Bicol_run1                 1 40  0  1  1  1  1  0  0  0  0  0  1
+ 411 0 0 Bicol_run1                 1 41  0  1  1  1  1  0  0  0  0  0  1
+ 421 0 0 Bicol_run1                 1 42  0  1  1  1  1  0  0  0  0  0  1
+ 431 0 0 Bicol_run1                 1 43  0  1  1  1  1  0  0  0  0  0  1
+ 441 0 0 Bicol_run1                 1 44  0  1  1  1  1  0  0  0  0  0  1
+ 451 0 0 Bicol_run1                 1 45  0  1  1  1  1  0  0  0  0  0  1
+ 461 0 0 Bicol_run1                 1 46  0  1  1  1  1  0  0  0  0  0  1
+ 471 0 0 Bicol_run1                 1 47  0  1  1  1  1  0  0  0  0  0  1
+ 481 0 0 Bicol_run1                 1 48  0  1  1  1  1  0  0  0  0  0  1
+ 491 0 0 Bicol_run1                 1 49  0  1  1  1  1  0  0  0  0  0  1
+ 501 0 0 Bicol_run1                 1 50  0  1  1  1  1  0  0  0  0  0  1
+ 511 0 0 Bicol_run1                 1 51  0  1  1  1  1  0  0  0  0  0  1
+ 
+*CULTIVARS 
+@C CR INGENO CNAME   
+ 1 RI IB0015 IR 64           
+ 
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+  1PILI0001 0001       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+  2PILI0002 0002       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+  3PILI0003 0003       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+  4PILI0004 0004       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+  5PILI0005 0005       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+  6PILI0006 0006       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+  7PILI0007 0007       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+  8PILI0008 0008       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+  9PILI0009 0009       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 10PILI0010 0010       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 11PILI0011 0011       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 12PILI0012 0012       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 13PILI0013 0013       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 14PILI0014 0014       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 15PILI0015 0015       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 16PILI0016 0016       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 17PILI0017 0017       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 18PILI0018 0018       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 19PILI0019 0019       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 20PILI0020 0020       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 21PILI0021 0021       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 22PILI0022 0022       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 23PILI0023 0023       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 24PILI0024 0024       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 25PILI0025 0025       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 26PILI0026 0026       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 27PILI0027 0027       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 28PILI0028 0028       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 29PILI0029 0029       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 30PILI0030 0030       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 31PILI0031 0031       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 32PILI0032 0032       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 33PILI0033 0033       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 34PILI0034 0034       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 35PILI0035 0035       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 36PILI0036 0036       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 37PILI0037 0037       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 38PILI0038 0038       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 39PILI0039 0039       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 40PILI0040 0040       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 41PILI0041 0041       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 42PILI0042 0042       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 43PILI0043 0043       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 44PILI0044 0044       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 45PILI0045 0045       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 46PILI0046 0046       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 47PILI0047 0047       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 48PILI0048 0048       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 49PILI0049 0049       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 50PILI0050 0050       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+ 51PILI0051 PILI       -99     0 DR000     0     0 00000 -99     50  WI_ANPH007 UNKNOWN
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+  1              0               0         0                 0     0     0     0   -99   -99
+  2              0               0         0                 0     0     0     0   -99   -99
+  3              0               0         0                 0     0     0     0   -99   -99
+  4              0               0         0                 0     0     0     0   -99   -99
+  5              0               0         0                 0     0     0     0   -99   -99
+  6              0               0         0                 0     0     0     0   -99   -99
+  7              0               0         0                 0     0     0     0   -99   -99
+  8              0               0         0                 0     0     0     0   -99   -99
+  9              0               0         0                 0     0     0     0   -99   -99
+ 10              0               0         0                 0     0     0     0   -99   -99
+ 11              0               0         0                 0     0     0     0   -99   -99
+ 12              0               0         0                 0     0     0     0   -99   -99
+ 13              0               0         0                 0     0     0     0   -99   -99
+ 14              0               0         0                 0     0     0     0   -99   -99
+ 15              0               0         0                 0     0     0     0   -99   -99
+ 16              0               0         0                 0     0     0     0   -99   -99
+ 17              0               0         0                 0     0     0     0   -99   -99
+ 18              0               0         0                 0     0     0     0   -99   -99
+ 19              0               0         0                 0     0     0     0   -99   -99
+ 20              0               0         0                 0     0     0     0   -99   -99
+ 21              0               0         0                 0     0     0     0   -99   -99
+ 22              0               0         0                 0     0     0     0   -99   -99
+ 23              0               0         0                 0     0     0     0   -99   -99
+ 24              0               0         0                 0     0     0     0   -99   -99
+ 25              0               0         0                 0     0     0     0   -99   -99
+ 26              0               0         0                 0     0     0     0   -99   -99
+ 27              0               0         0                 0     0     0     0   -99   -99
+ 28              0               0         0                 0     0     0     0   -99   -99
+ 29              0               0         0                 0     0     0     0   -99   -99
+ 30              0               0         0                 0     0     0     0   -99   -99
+ 31              0               0         0                 0     0     0     0   -99   -99
+ 32              0               0         0                 0     0     0     0   -99   -99
+ 33              0               0         0                 0     0     0     0   -99   -99
+ 34              0               0         0                 0     0     0     0   -99   -99
+ 35              0               0         0                 0     0     0     0   -99   -99
+ 36              0               0         0                 0     0     0     0   -99   -99
+ 37              0               0         0                 0     0     0     0   -99   -99
+ 38              0               0         0                 0     0     0     0   -99   -99
+ 39              0               0         0                 0     0     0     0   -99   -99
+ 40              0               0         0                 0     0     0     0   -99   -99
+ 41              0               0         0                 0     0     0     0   -99   -99
+ 42              0               0         0                 0     0     0     0   -99   -99
+ 43              0               0         0                 0     0     0     0   -99   -99
+ 44              0               0         0                 0     0     0     0   -99   -99
+ 45              0               0         0                 0     0     0     0   -99   -99
+ 46              0               0         0                 0     0     0     0   -99   -99
+ 47              0               0         0                 0     0     0     0   -99   -99
+ 48              0               0         0                 0     0     0     0   -99   -99
+ 49              0               0         0                 0     0     0     0   -99   -99
+ 50              0               0         0                 0     0     0     0   -99   -99
+ 51              0               0         0                 0     0     0     0   -99   -99
+ 
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    RI 09319   300   -99     1     1   -99     0     0     0   100    15 UNKNOWN
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    15 0.337  12.7   0.1
+ 1    30 0.350  12.7   0.1
+ 1    50 0.357   3.2   0.1
+ 1    70 0.311   3.2   0.1
+ 1    85 0.145   3.2   0.1
+ 1    90 0.085   3.2   0.1
+ 
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 09349   -99    75    25     T     R    20     0    2.     0    23    25     3     0                        UNKNOWN
+ 
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1   -99   -99   -99   -99   -99   -99     1 UNKNOWN
+@I IDATE  IROP IRVAL
+ 1 09346 IR008   2.0
+ 1 09346 IR010   0.0
+ 1 09352 IR011  30.0
+ 1 09352 IR009 100.0
+ 1 09356 IR006  50.0
+ 1 09356 IR009 150.0
+ 
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1    17 FE005 AP012     1  25.0   -99   -99   -99   -99   -99 UNKNOWN
+ 1    32 FE005 AP012     1  35.0   -99   -99   -99   -99   -99 UNKNOWN
+ 1    52 FE005 AP012     1  35.0   -99   -99   -99   -99   -99 UNKNOWN
+ 
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 09319  2150  IRRI, PILA JAN 85 UREASE
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     N     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     C     R     1     G     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     D     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
+ 1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     D     N     N
+ 
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          85028 85042    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 IB001 IB001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 IB001 IB001
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 86035   100     0
